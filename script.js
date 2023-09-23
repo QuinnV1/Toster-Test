@@ -16,7 +16,7 @@ var swiper = new Swiper(".mySwiper", {
 
 ///  timer
 
-var dateEnd = new Date('2023-09-23 17:16:00'),
+var dateEnd = new Date('2023-09-25 17:16:00'),
     dateNow = new Date(),
     date = Math.floor((dateEnd.getTime() - dateNow.getTime()) / 1000);
 
